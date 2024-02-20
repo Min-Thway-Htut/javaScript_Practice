@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title>javaScript Const</title>
+    <body>
+        <h2>javaScript Const</h2>
+        <p>Declaring a constant array does NOT make the elements unchangeable:</p>
+        <p id="demo"></p>
+
+        <script>
+            const array = ["Cristiano","Messi","Owen"];
+            array[1] = "Pele";
+            array.push("Neymar");
+            document.getElementById("demo").innerHTML = array;
+        </script>
+    </body>
+</html>
