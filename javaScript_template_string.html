@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title>javaScript String</title>
+    <body>
+        <h2>javaScript String</h2>
+        <p id="demo"></p>
+
+        <script>
+            let value = 10;
+            let VAT = 0.25;
+
+            let total = `Total: ${(value * (1+ VAT)).toFixed(2)}`;
+
+            document.getElementById("demo").innerHTML = total;
+        </script>
+    </body>
+</html>

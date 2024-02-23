@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title>javaScript Circle Calculation</title>
+    <body>
+        <h2>Calculating the area of the circle</h2>
+        <p></p>
+
+        <button onclick="myFunction()">Try it!</button>
+        <p id="demo"></p>
+
+        <script>
+            function myFunction(){
+              const pai = 3.14;
+              let radius = 10;
+              let area = `Area: ${radius * radius * pai.toFixed(2)}`;
+
+              document.getElementById("demo").innerHTML = area;
+            }
+        </script>
+
+
+    </body>
+</html>

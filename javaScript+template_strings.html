@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <title>javaScript Template</title>
+    <body>
+        <h2>javaScript Template</h2>
+        <p id="demo"></p>
+
+        <script>
+            let header = "Template strings";
+            let tags = ["templates", "coding", "frames"];
+            let html = `<h2>${header}</h2><ul>`;
+
+            for (const x of tags) {
+                html += `<li>${x}</li>`;
+            }
+
+            document.getElementById("demo").innerHTML = html;
+            html += '</ul>'
+        </script>
+    </body>
+</html>
